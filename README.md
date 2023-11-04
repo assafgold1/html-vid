@@ -1,14 +1,24 @@
----
-name: HTML Starter
-slug: html-starter-with-analytics
-description: HTML5 template with analytics and advanced routing configuration.
-deployUrl: https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/html&project-name=html
-relatedTemplates:
-  - nextjs-boilerplate
----
+# Video-chat-v1
 
-# HTML Starter
+Video-chat-v1 is a video chat app that makes it easy to groups up with people you want to meet
 
-This is a starter HTML5 templates which is configured with Vercel Analytics (through a `script` tag), advanced routing with [Vercel Edge Middleware](https://vercel.com/docs/concepts/functions/edge-middleware), as well as some basic styles
+![IMG](./video-chat.png)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/html&project-name=html)
+Check out the live demo: https://video-chat-app-v1.herokuapp.com/
+
+An article I wrote which explains how I build this: https://bit.ly/3wh0gyR
+
+This app is build using NodeJS, Socket.io, and Peerjs(WebRTC)
+
+## How to run the project?
+
+1. Clone this repository in your local system.
+2. Open the command prompt from your project directory and run the command `npm install`.
+3. Open the command prompt from your project directory and run the command `npm start`.
+4. Go to your browser and type `http://127.0.0.1:3030/` in the address bar.
+5. Hurray! That's it.
+
+### ToDo
+
+- [ ] - Recreate the Front-end with React.
+
